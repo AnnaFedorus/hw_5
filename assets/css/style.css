@@ -7,9 +7,11 @@
 body {
     background-color:  #E5E5E5;;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+}
+
+nav {
+    padding: 15px;
+    background-color: #E5E5E5;
 }
 
 .product-card {
@@ -19,6 +21,7 @@ body {
     min-height: 562px;
     position: relative;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .product-card-window {
@@ -85,6 +88,7 @@ body {
     width: 100%;
     max-width: 1220px;
     font-family: IBM Plex Sans;
+    margin: 0 auto;
 }
 
 .results-card-heading {
@@ -123,5 +127,5 @@ body {
     font-size: 17px;
     line-height: 22px;
     text-align: center;
-    margin-bottom: 79px;
+    padding-bottom: 79px;
 }
