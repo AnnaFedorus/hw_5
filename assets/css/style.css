@@ -13,7 +13,7 @@ body {
 }
 
 .product-card {
-    background-image: url(./assets/image.png);
+    background-image: url(../images/image.png);
     width: 100%;
     max-width: 373px;
     min-height: 562px;
